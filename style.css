@@ -1,0 +1,141 @@
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.leftNav {
+  float: left;
+  display: block;
+  padding: 8px 5px;
+  text-decoration: none;
+  color: #585858;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.rightNav {
+  float: right;
+  display: block;
+  padding: 8px 5px;
+  color: #585858;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+#capture {
+  margin-top: -10px;
+}
+
+.leftNav:hover {
+  text-decoration: underline;
+  color: #808080;
+}
+.rightNav:hover {
+  text-decoration: underline;
+  color: #808080;
+}
+#logo:hover {
+  color: #000;
+}
+center {
+  display: block;
+  text-align: -webkit-center
+}
+
+.googleLogo {
+  text-align: -webkit-center;
+  display: block;
+  height: 92px;
+  width: 272px;
+  padding-top: 109px;
+}
+
+.search{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  padding: 5px 9px 200px 16px;
+  border-bottom: 100px;
+  margin-bottom: 100px;
+}
+.searchBox {
+  display: block;
+  align-self: center;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  width: 75%;
+  height: 44px;
+  margin: 25px auto 15px auto;
+  padding: 12px 20px;
+  width: 30%;
+  position: 0 0 -34px 0;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  box-shadow: 0.5px 1px 3px #dfdfdf;
+}
+.searchButton
+{
+height: 36px;
+line-height: 27px;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+-webkit-border-radius: 2px;
+-webkit-user-select: none;
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 2px;
+color: #757575;
+cursor: default;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+margin: 11px 4px;
+min-width: 54px;
+padding: 0 16px;
+text-align: center;
+}
+
+.searchButton:hover {
+  border: 1px solid #808080;
+    color: #606060;
+}
+
+footer {
+  display: block;
+  background-color: #f5f5f5;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1px;
+}
+.leftFooter {
+  float: left;
+  display: block;
+  padding: .5px 12px;
+  text-decoration: none;
+  color: #585858;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.rightFooter{
+  float: right;
+  display: block;
+  padding: .5px 12px;
+  color: #585858;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.rightFooter:hover {
+  text-decoration: underline;
+}
+.leftFooter:hover {
+  text-decoration: underline;
+}
